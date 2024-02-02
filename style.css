@@ -1,0 +1,53 @@
+.nav{
+    border:solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.tabs{
+    border:solid blue;
+    width:20%;
+    border-radius:22px;
+    text-align:center;
+}
+.tabs:hover{
+    border:solid blue;
+    width:20%;
+    border-radius:22px;
+    text-align:center;
+    background-color:lemonchiffon;
+}
+.screen{
+    border:solid green;
+    margin:1em;
+    height:120px;
+}
+.mickey{
+    height:100%;
+}
+.footer{
+    border:solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    align-items: flex-end;
+}
+.colorTab{
+    border: solid black;
+    width: 10%;
+    border-radius: 20px;
+    text-align: center;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <!-- Nav Bar => Access Different Features to site -->
+
+    <div class="nav">
+        <div class="tabs" onclick="addToScreen(jordan.favoriteSongs)">Songs</div>
+        <div class="tabs" onclick="addToScreen(jordan.favoriteColors)"> Colors </div>
+        <div class="tabs" onclick="addImage()">Image</div>
+    </div>
+<!-- Main Screen => Display All Dynamic Content -->
+  
+<div class="screen"></div>
+<!--  -->
+        <div class="footer">
+            <div class="colorTab" id="red" onclick="addColor('coral')">red</div>
+            <div class="colorTab" id="blue" onclick="addColor('lightblue')">blue</div>
+            <div class="colorTab" id="yellow" onclick="addColor('yellow')">yellow</div>
+            <div class="colorTab" id="orange" onclick="addColor('orange')">orange</div>
+        </div> 
+        
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
